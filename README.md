@@ -66,6 +66,88 @@ This task helped me gain a strong conceptual understanding of cyber security fun
 
 ---
 
+Cyber Security Internship – Task 2
+📌 Task Title
+
+Operating System Security Fundamentals (Linux & Windows)
+
+📝 Task Description
+
+This task focuses on understanding and implementing OS-level security measures.
+It covers user accounts, file permissions, running services, firewall setup, and OS hardening practices to reduce vulnerabilities and improve system security.
+
+🔐 Topics Covered
+1. Users & Permissions
+
+Understanding administrator vs normal users
+
+File permissions in Linux (ls -l, chmod, chown)
+
+Access control mechanisms in Windows
+
+2. Firewall & Network Security
+
+Enabling firewall (Linux UFW / Windows Firewall)
+
+Configuring rules for network access
+
+3. Running Processes & Services
+
+Identifying active processes (ps aux / Task Manager)
+
+Disabling unnecessary services to reduce attack surface
+
+4. OS Hardening & Best Practices
+
+Principle of least privilege
+
+Removing/Disabling unused software/services
+
+Keeping system updated
+
+Limiting root/admin access
+
+🧠 Key Learnings
+
+Learned how to secure operating systems and reduce attack surfaces
+
+Practiced managing users, permissions, and firewall settings
+
+Gained insight into running processes and unnecessary service risks
+
+Understood OS hardening principles and best practices
+
+📋 Commands / Steps Executed
+Linux Examples
+whoami
+cat /etc/passwd
+ls -l
+chmod 755 filename
+chown user:group filename
+sudo ufw enable
+systemctl list-units --type=service
+sudo systemctl disable telnet
+
+Windows Examples
+
+Check Local Users: Computer Management → Local Users and Groups
+
+Check Firewall: Windows Security → Firewall & Network Protection → Enable Firewall
+
+Disable unnecessary services: Services.msc → Stop / Disable
+
+✅ OS Security Checklist
+Task	Status	Notes
+Check users & permissions	✅	Linux & Windows commands listed above
+Enable firewall	✅	Linux UFW / Windows Firewall
+Identify running services	✅	Listed example commands
+Disable unnecessary services	✅	Example: telnet service
+Apply least privilege	✅	Used normal user for daily tasks
+🎯 Outcome
+
+Through this task, I gained practical understanding of OS-level security and how to harden Linux and Windows systems against potential attacks. This strengthens my foundational knowledge in cybersecurity practices.
+
+
 ## 👩‍💻 Author
 Priyanshi Pankhaniya  
 GitHub: https://github.com/NIGHTCODE21
